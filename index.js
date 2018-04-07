@@ -21,6 +21,8 @@ bot.on("message", (message) => {
         message.reply("page d'aide affichée avec sucès");
      }else if(command === "test"){
          message.reply("test de connection avec le bot reussi !")
+     }else if(command === "breuh"){
+         message.reply("breuh")
      }
 
 });
