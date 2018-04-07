@@ -18,7 +18,11 @@ bot.on("message", (message) => {
     if(command === "hello"){
         message.reply('Salut !');
      }else if(command === "help"){
-        message.reply("page d'aide affichée avec sucès !\n /help; affiche les commande du bot\n /hello pour interagir avec le bot\n /test pour tester si le bot est online\n /breuh bas pour recevoir un 'breuh' du bot ^^);
+        message.reply("page d'aide affichée avec sucès !
+                      \n /help; affiche les commande du bot
+                      \n /hello pour interagir avec le bot
+                      \n /test pour tester si le bot est online
+                      \n /breuh bas pour recevoir un 'breuh' du bot ^^);
      }else if(command === "test"){
          message.reply("test de connection avec le bot reussi !")
      }
