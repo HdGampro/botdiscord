@@ -24,7 +24,7 @@ bot.on("message", (message) => {
      }
 });
 bot.on("guildMemberAdd", (member) => {
-    member.guild.channels.find("name", "bienvenue").send(`bienvenue ${member} n'hésite pas à invité tes amis pour obtenir le grade @V.I.P`)
+    member.guild.channels.find("name", "bienvenue").send(`bienvenue ${member} n'hésite pas à invité tes amis pour obtenir le grade @V.I.P `)
 });
 bot.on("guildMemberAdd", member => {
     var role = member.guild.roles.find('name', 'membre');
